@@ -5,7 +5,7 @@
   width: 40%;
   position: relative;
   font-family: 'Roboto', sans-serif;
-  margin-bottom:300px;
+  margin-bottom:200px;
   margin-top: -50px;
 
 }
@@ -47,9 +47,15 @@
 }
 
 .projets:hover .Decouvrir{
- opacity: 8;
+left: 300px;
  transition: all 2s ease-out;
- left: 230px;
+
+}
+
+.projets:hover .DecouvrirT{
+left: 0px;
+ transition: all 2s ease-out;
+
 }
 
 .projets:hover .projectName{
@@ -95,14 +101,26 @@
 
 .Decouvrir{
   position: absolute;
-  background: white;
-  padding: 3px 30px;
+  text-align: center;
+  padding: 50px 0px;
   padding-right: 100px;
   z-index: 20;
   top: 250px;
-  left: 180px;
-  opacity: 0;
-  color: #082B60;
+  left: 240px;
+  color: white;
+
+
+}
+
+.DecouvrirT{
+  position: absolute;
+  text-align: center;
+  padding: 50px 0px;
+  padding-right: 100px;
+  z-index: 20;
+  top: 150px;
+  left: 20px;
+  color: white;
 
 
 }

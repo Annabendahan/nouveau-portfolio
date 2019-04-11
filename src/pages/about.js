@@ -20,19 +20,22 @@ const SecondPage = () => (
       <h2> ANNA BENDAHAN </h2>
         <div className="Desc">
           <h1> WEB DEVELOPMENT & WEB DESIGN </h1>
-          <p> Passionnée de code et design, je crée des sites
-modernes et ergonomiques! </p>
-          <div className="Linkedin"> < FaLinkedin /> </div>
+          <p> De la conception jusqu'au déploiement, je crée
+           des applications web modernes et intuitives.
+           En mêlant interface esthétique et développement solide,
+           ces applications sont performantes et efficaces. </p>
+           <h1> CONTACT </h1>
+      <p> 0659133919 </p>
+      <p> an.bendahan@gmail.com </p>
+          <a target="_blank"  href="https://www.linkedin.com/in/anna-bendahan-55324113a/">
+           <div className="Linkedin"> < FaLinkedin /> </div> </a>
+
         </div>
       </div>
     </div>
 
 
-    <div className="part2-contact">
-      <h2> CONTACT </h2>
-      <p> 0659133919 </p>
-      <p> an.bendahan@gmail.com </p>
-    </div>
+
   </Layout>
 )
 

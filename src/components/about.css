@@ -1,18 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
+
+.part1-contact p{
+  color: grey;
+}
+
+.part2-contact p{
+  color: grey;
+}
+
+
 .part1-contact{
   display: flex;
   font-family: 'Roboto Mono';
-  width: 70%;
+  width: 80%;
   margin: auto;
   justify-content: space-between;
 
 }
 
+
+@media(max-width: 600px) {
+ .part1-contact{
+  display:block;
+ }
+}
+
+@media(max-width: 1100px) {
+ .part1-contact{
+  margin-top: 200px;
+ }
+}
+
 .DescA{
-    margin-left: 50px;
+    margin-left: 70px;
 
 
+}
+
+@media(max-width: 600px) {
+ .DescA{
+  margin-top: 300px;
+ }
 }
 
 .DescA h1{
@@ -21,15 +50,30 @@
 
 
 .DescA h2{
-  color: #FE004C;
+  color: transparent;
+  font-size: 2.5rem;
+   -webkit-text-stroke: .05rem #FE004C;
 }
 
 
 .Desc{
   background: white;
-  height: 300px;
-  width:500px;
+  width:600px;
   padding: 50px;
+}
+
+
+@media(max-width: 900px) {
+  .Desc{
+    width:300px;
+    padding: 15px;
+
+  }
+
+  .DescA h1{
+  color: #082B60;
+  font-size: 1.5rem;
+}
 }
 
 
@@ -39,9 +83,8 @@
 font-family: 'Roboto Mono';
 background: white;
 width: 70%;
-height: 300px;
 margin: 100px auto;
-padding: 50px;}
+padding: 30px;}
 
 
 .part2-contact h2{
@@ -59,12 +102,27 @@ padding: 50px;}
 }
 
 
+@media(max-width: 900px) {
+  .aboutPinkDiv{
+    height: 500px;
+
+  }
+}
+
+
 
 .Linkedin{
 color:#FE004C ;
 font-size: 4rem;
 margin-left: -100px;
 margin-top: -100px;
+position: relative;
+z-index: 20;
+opacity: .6;
+}
+
+.Linkedin:hover {
+opacity: 1;
 }
 
 

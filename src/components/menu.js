@@ -44,15 +44,25 @@ render() {
     </div>
            </div>
 
+           let dash = <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <line x1="6" y1="7.5" x2="38" y2="7.5" stroke="white"/>
+                      </svg>
+
+
   let menu =
       <div className="menu"
       style ={{
         left: this.state.show ? '-10px' : '-300px',
         opacity: this.state.show ? '1' : 'O '
       }}>
-            <Link to="/"> <p> <span className= "Fa">  </span> HOME </p> </Link>
-             <Link to="/projets/"> <p> <span className= "Fa">  </span>  PROJETS</p> </Link>
-             <Link to="/about/"> <p> <span className= "Fa">  </span> ABOUT </p> </Link>
+            <Link to="/"> <p> <span className= "Fa">  </span> HOME <span className="dash">
+             {dash}</span> </p> </Link>
+             <Link to="/easyfork/"> <p> <span className= "Fa">  </span>  EASYFORK <span className="dash">
+             {dash}</span> </p> </Link>
+             <Link to="/todolist/"> <p> <span className= "Fa">  </span>  TODOLIST <span className="dash">
+             {dash}</span> </p> </Link>
+             <Link to="/about/"> <p> <span className= "Fa">  </span> ABOUT <span className="dash">
+             {dash}</span> </p> </Link>
             <p className="close"onClick={this.iconeAppearsHandler} >
               <svg id="cross" width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
               <line x1="23.9244" y1="63.3012" x2="74.8046" y2="10.9543" stroke="white" stroke-width="3"/>

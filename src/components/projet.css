@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 
+.projets:hover .github svg{
+  transform: rotate(360deg);
+ transition: all 4s ease-out;
+}
+
+
 .projetRole{
   background :white;
   padding: 20px;
@@ -8,6 +14,12 @@
   margin: auto;
   font-family: 'Roboto Mono';
 }
+
+
+.projetRole p{
+  color: grey;
+}
+
 
 
 .screenShot{
@@ -64,3 +76,64 @@
  top: 80px;
   transition: all 1s ease-out;
 }
+
+
+.github{
+  color: white;
+  font-size: 4rem;
+  margin-left: 350px;
+  margin-top:-100px;
+  position: relative;
+  z-index:20 ;
+
+}
+
+
+.next{
+   margin: 50px auto;
+   width: 30%;
+   opacity: .7
+}
+
+
+
+
+.nextProject{
+  text-decoration: none;
+  color: #FE004C;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: 'Roboto Mono';
+}
+
+
+@media(max-width: 800px) {
+ .next{
+  width: 50%;
+
+ }
+ .nextProject {
+  font-size: 1rem;
+ }
+
+ .projetRole{
+  width: 90%;
+}
+}
+
+
+.next:hover .go{
+  padding: 30px;
+  margin-bottom:20px;
+  opacity: 1;
+}
+
+
+.next:hover{
+  opacity: 1;
+}
+
+
+
+
+

@@ -8,28 +8,34 @@ const Header = ({ siteTitle }) => (
     style={{
       background: `rebeccapurple`,
       marginBottom: `1.45rem`,
+      fontFamily: `Roboto Mono`,
+      fontWeight: `100`
     }}
   >
     <div
       style={{
 
-        padding: `1rem 1rem`,
-        background: `#082B60`
+
+        background: `#08244F`,
+        display: `flex`,
+        justifyContent: `space-between`,
+        alignItems: `center`
       }}
     >
-      <p style={{ margin: 0 }}>
+
+       < Menu />
         <Link
           to="/"
           style={{
             color: `white`,
             textDecoration: `none`,
+            marginRight: `40px`,
             fontSize: `1rem`
           }}
         >
-        < Menu />
-
+        <p className="logo"> AnnaBdh </p>
         </Link>
-      </p>
+
     </div>
   </header>
 )

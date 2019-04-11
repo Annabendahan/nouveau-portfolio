@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { FaLinkedin } from 'react-icons/fa';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -17,6 +17,7 @@ const Todolist = () => (
 <div className="projets">
     <p className="projectDetailName">TODOLIST </p>
      <div className="bigNumber"> 2 </div>
+
      <div style = {{
       width: `550px`,
       position:`relative`,
@@ -25,15 +26,15 @@ const Todolist = () => (
      <img  src={pic1} alt="fireSpot" />
      </div>
      <div className="pinkDivProjetTodolist">  </div>
+     <a target="_blank"  href= "https://github.com/Annabendahan/todolist" >
+     <div className="github"> < FaGithub /> </div> </a>
     </div>
+
 
 
     <div className="projetRole">
       <h3> PROJET & ROLE </h3>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      Beatae amet officiis qui necessitatibus sit maxime,
-      cum dicta recusandae quia, eligendi fuga pariatur impedit,
-       distinctio iusto ex voluptatem. Rerum inventore, consequuntur. </p>
+      <p>   <strong> API Rails </strong> et front-end en <strong> React.js </strong>. Utilisation d' <stong> Axios </stong> pour les requêtes à l'API.   </p>
 
     </div>
 
