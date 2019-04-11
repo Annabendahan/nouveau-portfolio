@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.menu{
+background: #FE004C;
+font-family: 'Roboto', sans-serif;
+color:white;
+z-index: 300;
+top: -0px;
+padding: 60px 20px;
+font-weight: 500;
+position: absolute;
+height: 100vh;
+width:250px;
+ transition: all .5s ease-out;
+
+}
+
+
+.menu p{
+font-size: .9rem;
+font-weight: 100;
+}
+.menu a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.menu a:hover{
+  color: #80EFF6;
+  cursor: pointer;
+  transition: all 1s ease-out;
+}
+
+.menuSmall{
+ width : 50px;
+  color: black;
+  z-index: 300;
+  margin: 20px;
+  transition: all 2s ease-out;
+
+}
+
+
+.menu-svg{
+  transition: all 2s ease-out;
+}
+
+.menu-svg:hover  .line1{
+  left: 10px;
+  transition: all 2s ease-out;
+}
+
+
+.menuSmall:hover  .line3{
+  left: 10px;
+  transition: all 2s ease-out;
+
+}
+
+.line{
+  position: absolute;
+  width: 30px;
+}
+
+.line2{
+  top: 10px;
+}
+
+.line3{
+  top: 20px;
+}
+
+
+.menu-svg{
+  position: relative;
+  margin-top: 30px;
+  width: 50px;
+  height: 50px;
+
+}
+
+svg#cross:hover{
+   width: 45px;
+  height: 45px;
+}
+svg#svg{
+
+  width: 50px;
+  height: 100px;
+}
+
+svg#svg:hover > #line1 {
+
+  color: red;
+  transition: all .5s ease-out;
+}
+
+.menuSmall:hover{
+  cursor: pointer;
+
+}
+
+
+.close{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 1.5rem;
+  padding: 20px 10px;
+  font-weight: 100;
+}
+
+.close:hover{
+  cursor: pointer;
+}
+
+
+.Fa{
+  padding: 10px;
+}

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.projets {
+  margin: auto;
+  width: 40%;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom:300px;
+  margin-top: -50px;
+
+}
+
+.projets:hover .go-icone{
+ opacity: 1;
+}
+
+
+.go-icone{
+  font-size: .9rem;
+  color: #FE004C ;
+  opacity: .5;
+  padding: 5px;
+}
+
+
+.projets:hover .pinkDiv{
+ top: 80px;
+ transition: all 1s ease-out;
+}
+
+
+.projets:hover .pinkDivT{
+ top: 30px;
+ transition: all 1s ease-out;
+}
+
+
+.projets:hover .bigNumber{
+ left: -120px;
+ transition: all 1s ease-out;
+}
+
+
+.projets:hover .bigNumberT{
+ left: 420px;
+ transition: all 1s ease-out;
+}
+
+.projets:hover .Decouvrir{
+ opacity: 8;
+ transition: all 2s ease-out;
+ left: 230px;
+}
+
+.projets:hover .projectName{
+ top: 50px;
+ opacity: 1;
+ transition: all 2s ease-out;
+
+}
+
+.projets:hover .projectNameT{
+ top: 50px;
+ opacity: 1;
+ transition: all 2s ease-out;
+
+}
+
+.pinkDiv{
+  background: #FE004C;
+  width: 450px;
+  height:300px;
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  z-index: 5;
+
+}
+
+.pinkDivT{
+  background: #FE004C;
+  width: 450px;
+  height:250px;
+  position: absolute;
+  top: 80px;
+  left: -50px;
+  z-index: 5;
+
+}
+
+.projectPic{
+  position: relative;
+  z-index: 10;
+}
+
+.Decouvrir{
+  position: absolute;
+  background: white;
+  padding: 3px 30px;
+  padding-right: 100px;
+  z-index: 20;
+  top: 250px;
+  left: 180px;
+  opacity: 0;
+  color: #082B60;
+
+
+}
+
+
+.bigNumber{
+  font-size: 15rem;
+  color: #FE004C;
+  position: absolute;
+  z-index: 15;
+  top: 150px;
+  left: -100px;
+  font-weight: 900;
+  opacity: 0.7;
+}
+
+.bigNumberT{
+  font-size: 15rem;
+  color: #FE004C;
+  position: absolute;
+  z-index: 15;
+  top: 150px;
+  left: 400px;
+  font-weight: 900;
+  opacity: 0.7;
+}
+
+.projectName{
+  opacity: .5;
+  transform: rotate(-90deg);
+  color: #FE004C;
+  font-weight: 700;
+  position: absolute;
+  top: 120px;
+  left: 350px;
+  font-size: 1.5rem;
+  width: 300px;
+
+}
+
+
+
+.projectNameT{
+  opacity: .5;
+  transform: rotate(-90deg);
+  color: #FE004C;
+  font-weight: 700;
+  position: absolute;
+  top: 120px;
+  left: -230px;
+  font-size: 1.5rem;
+  width: 300px;
+
+}
+

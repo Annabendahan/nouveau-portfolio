@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+.part1-contact{
+  display: flex;
+  font-family: 'Roboto Mono';
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+
+}
+
+.DescA{
+    margin-left: 50px;
+
+
+}
+
+.DescA h1{
+  color: #082B60;
+}
+
+
+.DescA h2{
+  color: #FE004C;
+}
+
+
+.Desc{
+  background: white;
+  height: 300px;
+  width:500px;
+  padding: 50px;
+}
+
+
+
+
+.part2-contact{
+font-family: 'Roboto Mono';
+background: white;
+width: 70%;
+height: 300px;
+margin: 100px auto;
+padding: 50px;}
+
+
+.part2-contact h2{
+  color: #082B60;
+}
+
+
+.aboutPinkDiv{
+ background: #FE004C;
+ width: 300px;
+  height: 650px ;
+ margin-top: -600px;
+ margin-left: -60px;
+
+}
+
+
+
+.Linkedin{
+color:#FE004C ;
+font-size: 4rem;
+margin-left: -100px;
+margin-top: -100px;
+}
+
+
+
+
+
+
+

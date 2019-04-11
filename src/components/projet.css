@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+
+.projetRole{
+  background :white;
+  padding: 20px;
+  width: 70%;
+  margin: auto;
+  font-family: 'Roboto Mono';
+}
+
+
+.screenShot{
+  margin: 50px auto;
+  width: 70%;
+}
+
+
+.projetPic{
+ height: 200px;
+}
+
+
+.projetDetailsTitle{
+  background: #FE004C;
+  color: white;
+  font-family: 'Roboto Mono';
+  padding: 10px;
+  width: 70%;
+  float: right;
+  margin: 50px 0px;
+}
+
+.pinkDivProjet{
+  background: #FE004C;
+  width: 600px;
+  height: 400px;
+  margin-top: -450px;
+}
+
+.pinkDivProjetTodolist{
+  background: #FE004C;
+  width: 500px;
+  height: 300px;
+  margin-top: -250px;
+  margin-left: 100px;
+}
+
+
+
+.projectDetailName{
+  transform: rotate(-90deg);
+  color: #FE004C;
+  font-weight: 700;
+  position: absolute;
+  top: 120px;
+  left: 500px;
+  font-size: 1.5rem;
+  width: 300px;
+}
+
+
+.projets:hover .projectDetailName{
+ top: 80px;
+  transition: all 1s ease-out;
+}

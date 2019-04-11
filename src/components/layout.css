@@ -1,3 +1,5 @@
+
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -619,4 +621,10 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+
+.background-blue{
+  background: #082B60;
+  padding: 20px;
 }
