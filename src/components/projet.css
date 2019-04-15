@@ -24,12 +24,12 @@
 
 .screenShot{
   margin: 50px auto;
-  width: 70%;
+  width: 80%;
 }
 
 
 .projetPic{
- height: 200px;
+ width: 500px;
 }
 
 
@@ -133,7 +133,51 @@
   opacity: 1;
 }
 
+.welcome{
 
+  font-family: Roboto Mono;
+  margin:auto;
+  width: 90%;
+  display: flex;
+}
+
+.welcome h1 {
+  color: #FE004C;
+  font-size: 6rem;
+  font-weight: 600;
+  font-family: Roboto Mono;
+}
+
+.welcome h2{
+
+  color: white;
+  font-weight: 300;
+font-family: Roboto Mono;
+}
+
+.previousP{
+  position: absolute;
+  top: 300px;
+  transform: rotate(180deg)
+}
+
+.nextP{
+  position: absolute;
+  top: 300px;
+  margin-left: 90%;
+}
+
+
+.presProjet{
+  margin-left: 30%;
+  width: 500px;
+  margin-bottom: 150px;
+}
+
+.presProjet p{
+
+   text-align: justify;
+}
 
 
 

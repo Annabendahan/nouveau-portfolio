@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
 
 .projets {
   margin: auto;
@@ -97,6 +98,7 @@ left: 0px;
 .projectPic{
   position: relative;
   z-index: 10;
+
 }
 
 .Decouvrir{
@@ -175,4 +177,153 @@ left: 0px;
   width: 300px;
 
 }
+
+
+.white{
+color: white}
+
+
+.homeFlex{
+  display: flex;
+  width: 80%;
+  margin: 50px auto;
+
+}
+
+
+.homeFlex h1{
+  font-family: Rubik;
+  font-weight: 900;
+}
+
+.homeFlex h2, p{
+  font-family: Roboto Mono;
+  position: relative;
+}
+
+.homeFlex p{
+  text-align: justify;
+  width: 80%;
+  color: #696565;
+}
+
+.yellowTitle{
+background: rgba(234, 254, 10, 0.59);
+padding: 20px;
+transform: rotate(-5deg);
+width:400px ;
+position: absolute;
+}
+
+.yellowTitle2{
+background: rgba(234, 254, 10, 0.59);
+padding: 20px;
+transform: rotate(-8deg);
+width:140px ;
+position: absolute;
+
+}
+
+.titleh2{
+  font-family: Roboto Mono;
+  position: relative;
+}
+
+.leftFlex{
+  padding: 30px;
+
+}
+
+.picture{
+filter: grayscale(100%);
+}
+
+
+.picture:hover{
+  filter: none;
+}
+
+
+
+.picpro{
+  width: 300px;
+  height: 300px;
+
+  filter:none;
+  margin:auto;
+
+}
+
+.contact{
+
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+
+}
+
+.contactbig{
+  margin: auto;
+  background: white;
+    width: 80%;
+  padding: 50px;
+  text-align: center;
+}
+
+
+.contactbig h3{
+font-family: Roboto Mono;
+}
+
+
+.about:hover .dash{
+   visibility: visible;
+   transition: all 1s ease-out;
+}
+
+.heart{
+  font-size: 3rem;
+  color:rgba(234, 254, 10, 0.59) ;
+}
+
+
+ a{
+  text-decoration: none;
+}
+
+.white-projet{
+  background: white;
+  position: relative;
+  width: 400px;
+  color:#343333;
+
+  padding: 20px;
+  margin: 20px;
+
+}
+
+.white-projet h3{
+  font-family: Roboto Mono;
+}
+
+
+.white-projet:hover .picpro{
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+.AllProjets{
+  margin: 100px auto;
+  width: 100%;
+}
+
+.second{
+  margin-left: 50%;
+  margin-top: -250px;
+}
+
+.picContact{
+  width: 300px;
+}
+
 

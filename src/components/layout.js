@@ -25,9 +25,9 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-
+       <Header />
       <div className = "background-blue">
-      <Header />
+
           <main>{children}</main>
       </div>
 

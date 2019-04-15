@@ -1,25 +1,22 @@
 import React from "react"
 import { Link } from "gatsby"
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import pic1 from "../images/todolistPic.png"
-import pic2 from '../images/todo.png';
-import pic3 from '../images/todologin.png';
-import '../components/projet.css'
-
-
-const Todolist = () => (
+import pic1 from '../images/rentmanPic.png';
+import pic2 from '../images/rentman banner.jpg';
+import pic3 from '../images/bannerrentman-fba0bd45ba602afc44bae6b94aef9a63.png';
+import '../components/about.css'
+import pic4 from '../images/banner2.png';
+const Rentman = () => (
   <Layout>
     <SEO title="Page two" />
 
-
-
-      <div className="presProjet">
+    <div className="presProjet">
       <div  className="yellowTitle2">
       </div>
-      <h2 className="titleh2"> TODOLIST </h2>
+      <h2 className="titleh2"> RENTMAN</h2>
       <img  src={pic1} className="projetPic" alt="fireSpot" />
       <p> Hello je suis web designer & developer
         "Lorem ipsum dolor sit amet, consectetur
@@ -30,12 +27,15 @@ const Todolist = () => (
       </div>
 
       <div className="screenShot">
-      <img  src={pic2} className="" alt="fireSpot" />
-      <img  src={pic3} className="" alt="fireSpot" />
+      <img  src={pic2} className="picdesign" alt="fireSpot" />
+      <img  src={pic3} className="picdesign" alt="fireSpot" />
+      <img  src={pic4} className="picdesign" alt="fireSpot" />
       </div>
+
+
+
 
   </Layout>
 )
 
-export default Todolist
-
+export default Rentman
