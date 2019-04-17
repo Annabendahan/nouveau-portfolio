@@ -172,7 +172,22 @@ font-family: Roboto Mono;
   margin-left: 30%;
   width: 500px;
   margin-bottom: 150px;
+
 }
+
+
+.presProjet p{
+font-weight: 100;
+ color:#343333;}
+
+
+
+@media(max-width: 800px) {
+
+  .presProjet{
+    margin-top: 50px;
+  }
+  }
 
 .presProjet p{
 
@@ -180,4 +195,16 @@ font-family: Roboto Mono;
 }
 
 
+@media(max-width: 600px) {
+  .presProjet{
+  margin:100px auto;
+  width: 300px;
+  margin-bottom: 150px;
+}
+}
+
+
+.bold{
+  font-weight: 900;
+}
 

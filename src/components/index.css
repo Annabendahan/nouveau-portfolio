@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Rubik:900');
 
 .projets {
   margin: auto;
@@ -16,178 +16,60 @@
 }
 
 
-.go-icone{
-  font-size: .9rem;
-  color: #FE004C ;
-  opacity: .5;
-  padding: 5px;
-}
-
-
-.projets:hover .pinkDiv{
- top: 80px;
- transition: all 1s ease-out;
-}
-
-
-.projets:hover .pinkDivT{
- top: 30px;
- transition: all 1s ease-out;
-}
-
-
-.projets:hover .bigNumber{
- left: -120px;
- transition: all 1s ease-out;
-}
-
-
-.projets:hover .bigNumberT{
- left: 420px;
- transition: all 1s ease-out;
-}
-
-.projets:hover .Decouvrir{
-left: 300px;
- transition: all 2s ease-out;
-
-}
-
-.projets:hover .DecouvrirT{
-left: 0px;
- transition: all 2s ease-out;
-
-}
-
-.projets:hover .projectName{
- top: 50px;
- opacity: 1;
- transition: all 2s ease-out;
-
-}
-
-.projets:hover .projectNameT{
- top: 50px;
- opacity: 1;
- transition: all 2s ease-out;
-
-}
-
-.pinkDiv{
-  background: #FE004C;
-  width: 450px;
-  height:300px;
-  position: absolute;
-  top: 150px;
-  left: 20px;
-  z-index: 5;
-
-}
-
-.pinkDivT{
-  background: #FE004C;
-  width: 450px;
-  height:250px;
-  position: absolute;
-  top: 80px;
-  left: -50px;
-  z-index: 5;
-
-}
-
-.projectPic{
-  position: relative;
-  z-index: 10;
-
-}
-
-.Decouvrir{
-  position: absolute;
-  text-align: center;
-  padding: 50px 0px;
-  padding-right: 100px;
-  z-index: 20;
-  top: 250px;
-  left: 240px;
-  color: white;
-
-
-}
-
-.DecouvrirT{
-  position: absolute;
-  text-align: center;
-  padding: 50px 0px;
-  padding-right: 100px;
-  z-index: 20;
-  top: 150px;
-  left: 20px;
-  color: white;
-
-
-}
-
-
-.bigNumber{
-  font-size: 15rem;
-  color: #FE004C;
-  position: absolute;
-  z-index: 15;
-  top: 150px;
-  left: -100px;
-  font-weight: 900;
-  opacity: 0.7;
-}
-
-.bigNumberT{
-  font-size: 15rem;
-  color: #FE004C;
-  position: absolute;
-  z-index: 15;
-  top: 150px;
-  left: 400px;
-  font-weight: 900;
-  opacity: 0.7;
-}
-
-.projectName{
-  opacity: .5;
-  transform: rotate(-90deg);
-  color: #FE004C;
-  font-weight: 700;
-  position: absolute;
-  top: 120px;
-  left: 350px;
-  font-size: 1.5rem;
-  width: 300px;
-
-}
 
 
 
-.projectNameT{
-  opacity: .5;
-  transform: rotate(-90deg);
-  color: #FE004C;
-  font-weight: 700;
-  position: absolute;
-  top: 120px;
-  left: -230px;
-  font-size: 1.5rem;
-  width: 300px;
-
-}
 
 
 .white{
 color: white}
 
+.zero{
+  background: red;
+  width: 80%;
+  height: 500px;
+  margin: 50px auto;
+  margin-bottom: -500px;
+  position: relative;
+  z-index: 50;
+
+}
 
 .homeFlex{
   display: flex;
   width: 80%;
-  margin: 50px auto;
+  margin: 30px auto;
+  transition: all 5s ease-out;
+  position: relative;
+  z-index: 5;
 
+
+
+}
+
+.picture{
+filter: grayscale(100%);
+width: 300px;
+height: 500px;
+ position:relative;
+  z-index: 5;
+}
+
+@media(max-width: 800px) {
+  .homeFlex{
+    width: 90%;
+  }
+}
+
+
+@media(max-width: 600px) {
+.homeFlex{
+    display: block;
+  }
+
+  .picture{
+
+  }
 }
 
 
@@ -203,12 +85,13 @@ color: white}
 
 .homeFlex p{
   text-align: justify;
-  width: 80%;
+  width: 90%;
   color: #696565;
 }
 
 .yellowTitle{
-background: rgba(234, 254, 10, 0.59);
+background: #EAFE0A;
+opacity: .4;
 padding: 20px;
 transform: rotate(-5deg);
 width:400px ;
@@ -216,7 +99,19 @@ position: absolute;
 }
 
 .yellowTitle2{
-background: rgba(234, 254, 10, 0.59);
+background: #EAFE0A;
+opacity: .4;
+padding: 20px;
+transform: rotate(-10deg);
+width:140px ;
+position: absolute;
+margin-left: 8%;
+
+}
+
+.yellowTitle3{
+background:#EAFE0A;
+opacity: .4;
 padding: 20px;
 transform: rotate(-8deg);
 width:140px ;
@@ -227,30 +122,53 @@ position: absolute;
 .titleh2{
   font-family: Roboto Mono;
   position: relative;
+  margin-left: 10%;
+}
+
+
+.titleh2P{
+  font-family: Roboto Mono;
+  position: relative;
+
 }
 
 .leftFlex{
   padding: 30px;
 
+
 }
 
-.picture{
-filter: grayscale(100%);
+@media(max-width: 600px) {
+  .leftFlex{
+  padding: 10px;
+
 }
+}
+
+
 
 
 .picture:hover{
   filter: none;
 }
 
+.go{
+  font-size: 1rem;
+  opacity: .3;
+  color: rgba(234, 254, 10, 0.69);
+}
+
+.white-projet:hover .go{
+opacity: 1;
+transition: all 1s ease-out;
+}
 
 
 .picpro{
-  width: 300px;
-  height: 300px;
 
+  height: 300px;
   filter:none;
-  margin:auto;
+  margin: 0px 15px;
 
 }
 
@@ -268,6 +186,12 @@ filter: grayscale(100%);
     width: 80%;
   padding: 50px;
   text-align: center;
+}
+
+@media(max-width: 600px) {
+  .contactbig{
+    width: 95%;
+  }
 }
 
 
@@ -298,32 +222,114 @@ font-family: Roboto Mono;
   color:#343333;
 
   padding: 20px;
-  margin: 20px;
+
+  stroke-dasharray: 700;
+  stroke-dashoffset: 700;
+
+
 
 }
 
-.white-projet h3{
-  font-family: Roboto Mono;
-}
+.white-projet:hover{
 
 
-.white-projet:hover .picpro{
-  filter: grayscale(100%);
-  cursor: pointer;
 }
 
-.AllProjets{
-  margin: 100px auto;
-  width: 100%;
-}
 
 .second{
   margin-left: 50%;
   margin-top: -250px;
 }
 
+
+
+.third{
+  margin-top: -150px;
+}
+
+
+@media(max-width: 800px) {
+  .AllProjets{
+    width: 95%;
+  }
+  .third{
+  margin-top: -50px;
+}
+}
+
+
+@media(max-width: 600px) {
+  .white-projet{
+    margin:auto;
+    width: 350px;
+  }
+  .second{
+    margin: 40px 0px;
+  }
+
+  .third{
+    margin-top: 50px;
+  }
+}
+
+
+
+
+.white-projet h3{
+  font-family: Roboto Mono;
+  margin-left: 15px;
+}
+
+.white-projet p{
+  font-family: Roboto Mono;
+  margin-left: 15px;
+}
+
+
+
+.white-projet:hover {
+
+}
+
+
+.white-projet:hover .picpro{
+  filter: grayscale(70%);
+  cursor: pointer;
+}
+
+.AllProjets{
+  margin: 100px auto;
+  width: 80%;
+}
+
+
+@media(max-width: 600px) {
+.AllProjets{
+  margin-left:0%;}}
+
+
+
+
+
 .picContact{
   width: 300px;
+}
+
+.voir{
+  font-size: .8rem;
+  padding: 0px 5px;
+  background: rgba(234, 254, 10, 0.05);
+
+}
+
+.white-projet:hover .voir{
+  background: rgba(234, 254, 10, 0.4);
+  transition: all 1s ease-out;
+}
+
+.littleDesc{
+margin-bottom: 5px;
+font-size: .9rem;
 }
 
 

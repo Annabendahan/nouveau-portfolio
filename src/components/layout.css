@@ -626,7 +626,32 @@ pre tt:after {
 
 .background-blue{
   background: #F6F6F6;
-  padding: 150px;
+  padding: 11% 6%;
+}
 
 
+@media(max-width: 800px) {
+  .background-blue{
+    padding: 2%;
+  }
+}
+
+
+.tabs{
+     background: #F6F6F6;
+        display: flex;
+        width: 35%;
+        padding: 20px;
+        justify-content: space-around;
+        align-items: center;
+        float:right;
+}
+
+
+
+
+@media(max-width: 600px) {
+.tabs{
+   width: 60%;
+}
 }
