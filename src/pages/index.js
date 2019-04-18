@@ -20,7 +20,7 @@ import { Parallax } from 'react-scroll-parallax';
 class  IndexPage extends Component {
    constructor(props) {
         super(props)
-        this.myRef = React.createRef()   // Create a ref object
+        // Create a ref object
     }
 
 
