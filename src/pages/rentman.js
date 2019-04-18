@@ -34,11 +34,11 @@ const Rentman = () => (
       </div>
 
       <div className="screenShot">
-      <Parallax  y={[10, -40]} tagOuter="figure">
+      <Parallax  y={[10, -20]} tagOuter="figure">
        <img  src={pic2} className="picdesign" alt="fireSpot" />
     </Parallax>
 
-    <Parallax  x={[20, 30]} tagOuter="figure">
+    <Parallax  x={[0, 30]} tagOuter="figure">
        <img  src={pic3} className="picdesign" alt="fireSpot" />
     </Parallax>
 

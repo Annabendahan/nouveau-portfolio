@@ -8,7 +8,7 @@ import '../components/index.css'
 
 import pic1 from '../images/Anna.png';
 import pic2 from "../images/easyforkPic.png"
-import pic3 from "../images/todolistPic.png"
+import pic3 from "../images/todolistPic2.png"
 import pic4 from "../images/rentmanPic.png"
 import pic5 from "../images/pavan-trikutam-1660-unsplash.jpg"
 
