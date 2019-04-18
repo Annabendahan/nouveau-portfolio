@@ -2,7 +2,6 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, {Component} from "react"
 import Menu from './menu'
-import scrollToComponent from 'react-scroll-to-component';
 import { ScrollTo } from "react-scroll-to";
 
 class Header extends Component {

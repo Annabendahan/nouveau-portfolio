@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React, {Component} from "react"
 import './menu.css'
 import pic1 from '../images/Anna.png';
-import scrollToComponent from 'react-scroll-to-component';
+
 import Backdrop from './backdrop'
 
 

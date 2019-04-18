@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import '../components/index.css'
-import scrollToComponent from 'react-scroll-to-component';
+
 import pic1 from '../images/Anna.png';
 import pic2 from "../images/easyforkPic.png"
 import pic3 from "../images/todolistPic.png"
