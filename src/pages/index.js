@@ -14,6 +14,7 @@ import pic5 from "../images/pavan-trikutam-1660-unsplash.jpg"
 
 import Projets from '../components/projets'
 import HomeFlex from '../components/homeFlex'
+import { Parallax } from 'react-scroll-parallax';
 
 
 class  IndexPage extends Component {
@@ -21,6 +22,7 @@ class  IndexPage extends Component {
         super(props)
         this.myRef = React.createRef()   // Create a ref object
     }
+
 
   render(){
     return(
@@ -32,13 +34,15 @@ class  IndexPage extends Component {
 
 
 
-      <section ref={this.myRef}> </section>
+
       <div  className="yellowTitle2">
       </div>
       <h2 className="titleh2"> PROJETS </h2>
       <div className="AllProjets">
 
-      <Link to="/todolist/">
+
+       <Parallax  y={[10, -30]} tagOuter="figure">
+         <Link to="/todolist/">
       <div className="white-projet">
         <div className="picpro">
           <img  src={pic3} className="" alt="fireSpot" />
@@ -49,7 +53,11 @@ class  IndexPage extends Component {
 
       </div>
       </Link>
+    </Parallax>
 
+
+
+    <Parallax  y={[20, -60]} tagOuter="figure">
       <Link to="/easyfork/">
       <div className="white-projet second">
         <div className="picpro">
@@ -61,7 +69,10 @@ class  IndexPage extends Component {
 
       </div>
       </Link>
+       </Parallax>
 
+
+     <Parallax  y={[10, -80]} tagOuter="figure">
     <Link to="/rentman/">
       <div className="white-projet third">
         <div className="picpro">
@@ -73,6 +84,9 @@ class  IndexPage extends Component {
 
       </div>
       </Link>
+      </Parallax>
+
+
   </div>
 
 
@@ -80,8 +94,9 @@ class  IndexPage extends Component {
 
     <div  className="yellowTitle2">  </div> <h2 className="titleh2"> CONTACT </h2>
 
-
+<Parallax  y={[50, -50]} tagOuter="figure">
      <div className="contactbig">
+      <p> Un projet? Une question? Contactez-moi!</p>
         <div className="contact">
           <div className="email">
            <h3> EMAIL  </h3>
@@ -97,7 +112,7 @@ class  IndexPage extends Component {
       <div className = "heart" > <FaHeart /> </div>
 
        </div>
-
+ </Parallax>
 
 
 

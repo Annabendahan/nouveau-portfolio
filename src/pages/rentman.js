@@ -9,9 +9,17 @@ import pic2 from '../images/rentman banner.png';
 import pic3 from '../images/bannerrentman-fba0bd45ba602afc44bae6b94aef9a63.png';
 import '../components/about.css'
 import pic4 from '../images/banner2.png';
+import { Parallax } from 'react-scroll-parallax';
+
 const Rentman = () => (
   <Layout>
     <SEO title="Page two" />
+
+    <Link to="/" > <div className="projetHeader"> <svg width="64" height="30" viewBox="0 0 64 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line y1="-0.5" x2="27.1765" y2="-0.5" transform="matrix(0.735931 -0.677057 0.820905 0.571064 19 27.3999)" stroke="black"/>
+<line y1="-0.5" x2="27.1765" y2="-0.5" transform="matrix(0.735931 0.677057 0.820905 -0.571064 19 26.6001)" stroke="black"/>
+</svg>
+ </div> </Link>
 
     <div className="presProjet">
       <div  className="yellowTitle3">
@@ -26,9 +34,20 @@ const Rentman = () => (
       </div>
 
       <div className="screenShot">
-      <img  src={pic2} className="picdesign" alt="fireSpot" />
-      <img  src={pic3} className="picdesign" alt="fireSpot" />
-      <img  src={pic4} className="picdesign" alt="fireSpot" />
+      <Parallax  y={[10, -40]} tagOuter="figure">
+       <img  src={pic2} className="picdesign" alt="fireSpot" />
+    </Parallax>
+
+    <Parallax  x={[20, 30]} tagOuter="figure">
+       <img  src={pic3} className="picdesign" alt="fireSpot" />
+    </Parallax>
+
+
+ <Parallax  y={[10, -20]} tagOuter="figure">
+       <img  src={pic4} className="picdesign" alt="fireSpot" />
+    </Parallax>
+
+
       </div>
 
 

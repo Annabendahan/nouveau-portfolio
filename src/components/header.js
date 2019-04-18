@@ -3,13 +3,14 @@ import PropTypes from "prop-types"
 import React, {Component} from "react"
 import Menu from './menu'
 import scrollToComponent from 'react-scroll-to-component';
+import { ScrollTo } from "react-scroll-to";
 
 class Header extends Component {
 
-  scrollToMyRef = () => window.scrollTo(0, this.myRef.offsetTop)
 
   render(){
     return(
+
 
         <header
     style={{
@@ -25,54 +26,86 @@ class Header extends Component {
 
 
 
+        <div
 
-        <Link
-          to="/"
           style={{
             color: `black`,
             textDecoration: `none`,
             marginRight: `0px`,
-            fontSize: `.8rem`
+            fontSize: `.8rem`,
+            cursor: `pointer`
           }}
         >
-        <p className="about" onClick={() => this.scrollToMyRef()}> ABOUT <span className="dash">
+
+        <ScrollTo>
+        {({ scrollTo }) => (
+          <a onClick={() => scrollTo({ x: 20, y: 50, smooth: true })}> <p className="about" > ABOUT <span className="dash">
              <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <line x1="6" y1="7.5" x2="38" y2="7.5" stroke="black" stroke-width="5"/>
-                      </svg></span> </p>
-        </Link>
+                      </svg></span> </p></a>
+        )}
+      </ScrollTo>
 
-        <Link
-          to="/"
+
+
+        </div>
+
+
+
+
+
+ <div
+
           style={{
             color: `black`,
             textDecoration: `none`,
             marginRight: `0px`,
-            fontSize: `.8rem`
+            fontSize: `.8rem`,
+            cursor: `pointer`
           }}
         >
-        <p className="about" > PROJETS <span className="dash">
+
+        <ScrollTo>
+        {({ scrollTo }) => (
+          <a onClick={() => scrollTo({ x: 20, y: 720, smooth: true })}> <p className="about" > PROJETS <span className="dash">
              <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <line x1="6" y1="7.5" x2="38" y2="7.5" stroke="black" stroke-width="5"/>
-                      </svg></span> </p>
-        </Link>
+                      </svg></span> </p></a>
+        )}
+      </ScrollTo>
 
-        <Link
-          to="/"
+
+
+        </div>
+
+         <div
+
           style={{
             color: `black`,
             textDecoration: `none`,
             marginRight: `0px`,
-            fontSize: `.8rem`
+            fontSize: `.8rem`,
+            cursor: `pointer`
           }}
         >
-        <p className="about"> CONTACT  <span className="dash">
+
+        <ScrollTo>
+        {({ scrollTo }) => (
+          <a onClick={() => scrollTo({ x: 20, y: 2000, smooth: true })}> <p className="about" > CONTACT <span className="dash">
              <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <line x1="6" y1="7.5" x2="38" y2="7.5" stroke="black" stroke-width="5"/>
-                      </svg></span> </p>
-        </Link>
+                      </svg></span> </p></a>
+        )}
+      </ScrollTo>
+
+
+
+        </div>
+
 
     </div>
   </header>
+
 
       )
   }}

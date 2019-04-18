@@ -652,6 +652,6 @@ pre tt:after {
 
 @media(max-width: 600px) {
 .tabs{
-   width: 60%;
+   visibility: hidden
 }
 }

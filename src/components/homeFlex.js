@@ -17,7 +17,6 @@ class HomeFlex extends Component {
 
 
 
-
 render() {
 
 
@@ -26,23 +25,14 @@ render() {
 
 
   return (
-    <div >
-.   <div style={{
- background: `red`,
-  width: this.state.class ? `80%` : `0%`,
-  height: `500px`,
-  margin: `50px auto`,
-  marginBottom: `-500px`,
-  position: `relative`,
-  zIndex: `50`,
-   transition: `all 5s ease-out`
-}}> </div>
+    <div>
+
     <div className="homeFlex">
         <div className="leftFlex">
-          <h1 onClick={() => scrollToComponent(this.Display, { offset: 0, align: 'top', duration: 1500})} > HELLO. </h1>
+          <h1 > HELLO. </h1>
            <div  className="yellowTitle">  </div> <h2> WEB DESIGN & DEVELOPMENT </h2>
           <p> Bienvenue sur mon portfolio! Je suis <strong> Anna Bendahan, </strong> developpeuse full-stack
-          spécialisée en front-end et passionée de design. De la conception jusqu'au déploiement, je crée
+          spécialisée en front-end et passionnée de design. De la conception jusqu'au déploiement, je crée
              des applications web modernes et intuitives.
              En mêlant interface esthétique et développement solide,
              ces applications sont performantes et efficaces.
