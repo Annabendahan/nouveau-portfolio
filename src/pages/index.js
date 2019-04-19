@@ -107,7 +107,9 @@ class  IndexPage extends Component {
            <p> 0659133919</p>
           </div>
        </div>
+       <Parallax  y={[20, -50]} tagOuter="figure">
       <img  src={pic5} className="picContact" alt="fireSpot" />
+       </Parallax>
       <h3> MERCI POUR LA VISITE ! </h3>
       <div className = "heart" > <FaHeart /> </div>
 

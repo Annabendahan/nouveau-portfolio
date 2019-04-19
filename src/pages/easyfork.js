@@ -25,7 +25,9 @@ const Easyfork = () => (
       <div  className="yellowTitle3">
       </div>
       <h2 className="titleh2P"> EASYFORK</h2>
+      <Parallax  y={[20, -10]} tagOuter="figure">
       <img  src={pic1} className="projetPic" alt="fireSpot" />
+       </Parallax>
       <p> <span className="bold"> Projet: </span> Site co-développé au Wagon, permet de réserver et
        commander à l'avance dans les restos pour ne pas avoir
         à attendre!
@@ -46,7 +48,7 @@ const Easyfork = () => (
         <img  src={pic2} className="" alt="fireSpot" />
     </Parallax>
 
-    <Parallax  y={[10, -60]} tagOuter="figure">
+    <Parallax  y={[10, -40]} tagOuter="figure">
         <img  src={pic3} className="" alt="fireSpot" />
     </Parallax>
 

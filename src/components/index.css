@@ -31,10 +31,12 @@ color: white}
   width: 80%;
   margin: auto;
   margin-top: -20px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   transition: all 5s ease-out;
   position: relative;
   z-index: 5;
+  background: white;
+  padding: 40px 20px;
 
 
 
@@ -50,7 +52,7 @@ height: 500px;
 
 @media(max-width: 800px) {
   .homeFlex{
-    width: 90%;
+    width: 95%;
   }
 }
 
@@ -79,7 +81,7 @@ height: 500px;
 
 .homeFlex p{
   text-align: justify;
-  width: 90%;
+  width: 95%;
   color: #494747;
 }
 
@@ -105,7 +107,7 @@ padding: 20px;
 transform: rotate(-10deg);
 width:140px ;
 position: absolute;
-margin-left: 10%;
+margin-left: 9%;
 
 }
 
@@ -334,5 +336,6 @@ font-family: Roboto Mono;
 margin-bottom: 5px;
 font-size: .9rem;
 }
+
 
 

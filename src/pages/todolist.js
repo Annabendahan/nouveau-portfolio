@@ -25,7 +25,9 @@ const Todolist = () => (
       <div  className="yellowTitle3">
       </div>
       <h2 className="titleh2P"> TODOLIST </h2>
+      <Parallax  y={[10, -10]} tagOuter="figure">
       <img  src={pic1} className="projetPic" alt="fireSpot" />
+      </Parallax>
       <p>  <span className="bold"> Projet: </span> Application de gestion de tâches. Système de "post-it"
       avec différents niveaux d'urgence des tâches, ratio de complétion.  </p>
       <p><span className="bold"> Technos: </span> <strong> API Rails </strong> et front-end en <strong> React.js </strong>. Utilisation d' <stong> Axios </stong> pour les requêtes à l'API.  <span><svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">

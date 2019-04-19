@@ -25,7 +25,9 @@ const Rentman = () => (
       <div  className="yellowTitle3">
       </div>
       <h2 className="titleh2P"> RENTMAN</h2>
+      <Parallax  y={[10, -10]} tagOuter="figure">
       <img  src={pic1} className="projetPic" alt="fireSpot" />
+      </Parallax>
       <p> <strong> Marketing digital </strong> - design pour le logiciel de gestion Rentman
       (Site internet, bannières pour publicités Facebook, salons)  <span><svg width="42"
       height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
