@@ -626,7 +626,7 @@ pre tt:after {
 
 .background-blue{
   background: #F6F6F6;
-  padding: 11% 6%;
+
 }
 
 
@@ -654,4 +654,10 @@ pre tt:after {
 .tabs{
    visibility: hidden
 }
+}
+
+
+.logo1{
+  padding: 40px;
+
 }

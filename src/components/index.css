@@ -80,7 +80,7 @@ height: 500px;
 .homeFlex p{
   text-align: justify;
   width: 90%;
-  color: #696565;
+  color: #494747;
 }
 
 .yellowTitle{
@@ -105,7 +105,7 @@ padding: 20px;
 transform: rotate(-10deg);
 width:140px ;
 position: absolute;
-margin-left: 8%;
+margin-left: 10%;
 
 }
 
@@ -283,6 +283,7 @@ font-family: Roboto Mono;
 .white-projet p{
   font-family: Roboto Mono;
   margin-left: 15px;
+  color:#494747;
 }
 
 
@@ -298,7 +299,9 @@ font-family: Roboto Mono;
 }
 
 .AllProjets{
-  margin: 100px auto;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: -70px;
   width: 80%;
 }
 

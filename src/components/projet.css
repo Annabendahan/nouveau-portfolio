@@ -17,7 +17,7 @@
 
 
 .projetRole p{
-  color: grey;
+  color: #494747;
 }
 
 
@@ -210,7 +210,8 @@ font-weight: 100;
 
 .projetHeader{
 position:absolute;
-top: 10px;
+top: 100px;
+left:150px;
 z-index: 50;
 width: 100%;
 }
