@@ -8,11 +8,12 @@ import '../components/index.css'
 
 import pic1 from '../images/Anna.png';
 import pic2 from "../images/easyforkPic.png"
-import pic3 from "../images/todolistPic2.png"
+import pic3 from "../images/aliceP.png"
 import pic4 from "../images/rentmanPic.png"
 import pic5 from "../images/pavan-trikutam-1660-unsplash.jpg"
 
 import Projets from '../components/projets'
+import Spinner from '../components/spinner'
 import HomeFlex from '../components/homeFlex'
 import { Parallax } from 'react-scroll-parallax';
 
@@ -20,13 +21,18 @@ import { Parallax } from 'react-scroll-parallax';
 class  IndexPage extends Component {
    constructor(props) {
         super(props)
-        // Create a ref object
+        this.state = { isLoading: true }
     }
+
+    componentDidMount() {
+    this.setState({isLoading: false})
+}
+
 
 
   render(){
-    return(
-          <Layout>
+
+    let show = <Layout>
     <SEO title="Home" keywords={[`développeur`, `web`, `designer`]} />
 
 
@@ -41,14 +47,14 @@ class  IndexPage extends Component {
       <div className="AllProjets">
 
 
-       <Parallax  y={[10, -30]} tagOuter="figure">
-         <Link to="/todolist/">
+       <Parallax  y={[10, -10]} tagOuter="figure">
+         <Link to="/AliceWebsite/">
       <div className="white-projet">
         <div className="picpro">
           <img  src={pic3} className="" alt="fireSpot" />
         </div>
         <p className = "littleDesc">  Design & Code </p>
-        <h3> TODOLIST  </h3>
+        <h3> ALICE WEBSITE  </h3>
         <p className="voir"> Voir le projet </p>
 
       </div>
@@ -57,7 +63,7 @@ class  IndexPage extends Component {
 
 
 
-    <Parallax  y={[20, -60]} tagOuter="figure">
+    <Parallax  y={[20, -30]} tagOuter="figure">
       <Link to="/easyfork/">
       <div className="white-projet second">
         <div className="picpro">
@@ -72,7 +78,7 @@ class  IndexPage extends Component {
        </Parallax>
 
 
-     <Parallax  y={[10, -80]} tagOuter="figure">
+     <Parallax  y={[10, -30]} tagOuter="figure">
     <Link to="/rentman/">
       <div className="white-projet third">
         <div className="picpro">
@@ -94,7 +100,7 @@ class  IndexPage extends Component {
 
     <div  className="yellowTitle2">  </div> <h2 className="titleh2"> CONTACT </h2>
 
-<Parallax  y={[50, -50]} tagOuter="figure">
+<Parallax  y={[20, -20]} tagOuter="figure">
      <div className="contactbig">
       <p> Un projet? Une question? Contactez-moi!</p>
         <div className="contact">
@@ -107,7 +113,7 @@ class  IndexPage extends Component {
            <p> 0659133919</p>
           </div>
        </div>
-       <Parallax  y={[20, -50]} tagOuter="figure">
+       <Parallax  y={[20, 0]} tagOuter="figure">
       <img  src={pic5} className="picContact" alt="fireSpot" />
        </Parallax>
       <h3> MERCI POUR LA VISITE ! </h3>
@@ -120,6 +126,11 @@ class  IndexPage extends Component {
 
 
   </Layout>
+
+
+    return(
+
+      show
 
       )
   }

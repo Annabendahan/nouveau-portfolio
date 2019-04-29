@@ -6,6 +6,7 @@ import pic1 from '../images/Anna.png';
 
 import Backdrop from './backdrop'
 import { Parallax } from 'react-scroll-parallax';
+import Spinner from '../components/spinner'
 
 
 
@@ -13,8 +14,13 @@ import { Parallax } from 'react-scroll-parallax';
 class HomeFlex extends Component {
 
   state = {
-      class: false
+      isLoading: true
     }
+
+
+  componentDidMount() {
+    this.setState({isLoading: false})
+}
 
 
 
@@ -22,13 +28,7 @@ render() {
 
 
 
-
-
-
-  return (
-    <div>
-
-    <div className="homeFlex">
+let homeFlex =<div className="homeFlex">
 
         <div className="leftFlex">
          <Parallax  y={[-30, 20]} tagOuter="figure">
@@ -51,6 +51,14 @@ render() {
 
       </div>
 
+
+
+
+
+  return (
+    <div>
+
+ {this.state.isLoading ? <Spinner /> : homeFlex}
 
 
 

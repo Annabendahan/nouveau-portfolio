@@ -83,18 +83,19 @@ height: 500px;
   text-align: justify;
   width: 95%;
   color: #494747;
+  font-size: .9rem;
 }
 
 .yellowTitle{
-background: #EAFE0A;
-opacity: .4;
+background: #F7FF3C;
+opacity: .5;
 padding: 20px;
 transform: rotate(-5deg);
 width:400px ;
 position: absolute;
 }
 
-@media(max-width: 1300px) {
+@media(max-width: 1100px) {
   .yellowTitle{
     width:220px ;
     padding: 30px;}
@@ -102,7 +103,7 @@ position: absolute;
 
 .yellowTitle2{
 background: #EAFE0A;
-opacity: .4;
+opacity: .5;
 padding: 20px;
 transform: rotate(-10deg);
 width:140px ;
@@ -113,10 +114,21 @@ margin-left: 9%;
 
 .yellowTitle3{
 background:#EAFE0A;
-opacity: .4;
+opacity: .5;
 padding: 20px;
 transform: rotate(-8deg);
 width:140px ;
+position: absolute;
+
+}
+
+
+.yellowTitle4{
+background:#EAFE0A;
+opacity: .5;
+padding: 20px;
+transform: rotate(-8deg);
+width:220px ;
 position: absolute;
 
 }
@@ -182,8 +194,15 @@ transition: all 1s ease-out;
 
 }
 
+
+
+
+.contactbig p{
+font-size: .9rem;
+}
 .contactbig{
   margin: auto;
+  margin-top: 150px;
   background: white;
     width: 80%;
   padding: 50px;
@@ -320,6 +339,39 @@ font-family: Roboto Mono;
   width: 300px;
 }
 
+.picC{
+   width: 300px;
+   height:300px;
+   position: absolute;
+  top: 0px;
+  background-size:cover;
+  background: url(../images/pavan-trikutam-1660-unsplash.jpg);
+
+ }
+
+ .mask{
+  position:absolute;
+  top: 0px;
+
+  background: white;
+  width: 350px;
+  height: 250px;
+  transition: all 4s ease-out;
+ }
+
+
+
+ .test-mask{
+  position: relative;
+  background: blue;
+  transition: all 4s ease-out;
+ }
+
+.test-mask:hover .mask{
+  transform: translateX(300px);
+  transition: all 2s ease-out;
+}
+
 .voir{
   font-size: .8rem;
   padding: 0px 5px;
@@ -337,5 +389,25 @@ margin-bottom: 5px;
 font-size: .9rem;
 }
 
+.about:hover svg{
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+  animation: dash 1s linear forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes dash{
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+.homeFlex:hover svg{
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+  animation: dash 1s linear forwards;
+  animation-fill-mode: forwards;
+}
 
 

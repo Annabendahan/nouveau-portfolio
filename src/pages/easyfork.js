@@ -15,17 +15,25 @@ const Easyfork = () => (
   <Layout>
     <SEO title="Easyfork" />
 
-        <Link to="/" > <div className="projetHeader"> <svg width="64" height="30" viewBox="0 0 64 53" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line y1="-0.5" x2="27.1765" y2="-0.5" transform="matrix(0.735931 -0.677057 0.820905 0.571064 19 27.3999)" stroke="black"/>
-<line y1="-0.5" x2="27.1765" y2="-0.5" transform="matrix(0.735931 0.677057 0.820905 -0.571064 19 26.6001)" stroke="black"/>
+        <Link to="/" > <div className="projetHeader"> <svg width="86" height="79" viewBox="0 0 86 79" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<line x1="22.8934" y1="42.9907" x2="50.1312" y2="12.3394" stroke="black" stroke-width="5" stroke-linejoin="round"/>
+<line x1="53.2942" y1="67.8276" x2="23.294" y2="39.8276" stroke="black" stroke-width="5" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="86" height="79" fill="white"/>
+</clipPath>
+</defs>
 </svg>
+
  </div> </Link>
 
       <div className="presProjet">
       <div  className="yellowTitle3">
       </div>
       <h2 className="titleh2P"> EASYFORK</h2>
-      <Parallax  y={[20, -10]} tagOuter="figure">
+      <Parallax  y={[10, 0]} tagOuter="figure">
       <img  src={pic1} className="projetPic" alt="fireSpot" />
        </Parallax>
       <p> <span className="bold"> Projet: </span> Site co-développé au Wagon, permet de réserver et

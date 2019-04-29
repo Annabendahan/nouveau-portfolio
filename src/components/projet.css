@@ -169,7 +169,7 @@ font-family: Roboto Mono;
 
 
 .picdesign{
-  margin: 50px;
+
 }
 
 .presProjet{
@@ -182,7 +182,8 @@ font-family: Roboto Mono;
 
 .presProjet p{
 font-weight: 100;
- color:#343333;}
+ color:#343333;
+font-size: .85rem;}
 
 
 
@@ -223,5 +224,12 @@ width: 100%;
 
 .projetHeader svg{
 margin-top: 150px;
+}
+
+.projetHeader svg:hover{
+  stroke-dasharray: 70;
+  stroke-dashoffset: 70;
+  animation: dash 1s linear forwards;
+  animation-fill-mode: forwards;
 }
 
