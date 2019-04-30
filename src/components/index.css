@@ -1,15 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Rubik:900');
 
-.projets {
-  margin: auto;
-  width: 30%;
-  position: relative;
-  font-family: 'Roboto', sans-serif;
-  margin-bottom:200px;
-  margin-top: -100px;
 
-}
 
 .projets:hover .go-icone{
  opacity: 1;
@@ -58,6 +50,15 @@ margin-top: -100px;
   z-index: 5;
 }
 
+
+@media(max-width: 1500px) {
+  .picture{
+
+margin-top :50px;
+
+
+}}
+
 @media(max-width: 800px) {
   .homeFlex{
     width: 95%;
@@ -65,14 +66,25 @@ margin-top: -100px;
 }
 
 
+@media(max-width: 1500px) {
+  .homeFlex{
+    width: 95%;
+    margin-bottom: 500px;
+    margin-top: 100px;
+
+  }
+}
+
 @media(max-width: 600px) {
 .homeFlex{
     display: block;
     margin-top: 0px;
+    margin-left: 20%;
   }
 
   .picture{
-
+margin-left: -20%;
+margin-top: 20px;
   }
 }
 
@@ -180,6 +192,7 @@ position: relative;
 @media(max-width: 600px) {
   .leftFlex{
   padding: 10px;
+  margin:auto;
 
 }
 }
@@ -240,6 +253,14 @@ margin-top: -150px;
 @media(max-width: 600px) {
   .contactbig{
     width: 95%;
+    margin-top: -100px
+  }
+}
+
+@media(max-width: 1500px) {
+  .contactbig{
+    width: 95%;
+    margin-top: 0px
   }
 }
 

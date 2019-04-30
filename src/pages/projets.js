@@ -66,7 +66,7 @@ render(){
 
   return(
 
-<div className="background">
+<div className="background-p">
       <Layout>
 
 
@@ -92,7 +92,7 @@ render(){
       position: `relative`,
       zIndex: `50`,
       marginLeft: `-50px`,
-      width: `110%`,
+      width: `120%`,
       height: `200vh`,
 
             transform: this.state.mount? `translateY(0px)` : `translateY(-1000px)`,
