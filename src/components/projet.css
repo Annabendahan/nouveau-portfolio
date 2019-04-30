@@ -388,6 +388,7 @@ opacity: 0;
 .background-p{
 
   height: 100vh;
+  overflow: hidden;
 
 }
 

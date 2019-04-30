@@ -32,7 +32,7 @@ render(){
 
   return(
 
-    <div className="background">
+    <div className="background-c">
       <Layout>
 
 

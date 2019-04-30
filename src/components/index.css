@@ -243,6 +243,7 @@ font-size: .9rem;
 margin-top: -150px;
     width: 80%;
   padding: 50px;
+  margin-bottom: 500px;
   text-align: center;
 }
 
@@ -250,12 +251,6 @@ margin-top: -150px;
   margin-top: -200px;
 }
 
-@media(max-width: 600px) {
-  .contactbig{
-    width: 95%;
-    margin-top: -100px
-  }
-}
 
 @media(max-width: 1500px) {
   .contactbig{
@@ -263,6 +258,15 @@ margin-top: -150px;
     margin-top: 0px
   }
 }
+
+
+@media(max-width: 600px) {
+  .contactbig{
+    width: 95%;
+    margin-top: -145px
+  }
+}
+
 
 
 .contactbig h3{

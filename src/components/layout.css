@@ -632,8 +632,13 @@ header a{
 .background{
   overflow: hidden;
 
+
 }
 
+.background-c{
+overflow: hidden;
+height: 100vh;
+}
 
 
 .background-blue{
@@ -671,5 +676,15 @@ width: 60%;
 
 .logo1{
   padding: 40px;
+}
+
+
+@media(max-width: 600px) {
+.logo1{
+  padding: 10px;
+}
 
 }
+
+
+
