@@ -9,6 +9,7 @@ import pic2 from '../images/alice1.png';
 import pic3 from '../images/alice2.png';
 import pic4 from '../images/alice3.png';
 import pic5 from '../images/alice4.png';
+ import previous from '../images/previous.png';
 import '../components/projet.css'
 import { Parallax } from 'react-scroll-parallax';
 
@@ -17,19 +18,9 @@ const AliceWebsite = () => (
   <Layout>
     <SEO title="Page two" />
 
-<Link to="/" > <div className="projetHeader"> <svg width="86" height="79" viewBox="0 0 86 79" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0)">
-<line x1="22.8934" y1="42.9907" x2="50.1312" y2="12.3394" stroke="black" stroke-width="5" stroke-linejoin="round"/>
-<line x1="53.2942" y1="67.8276" x2="23.294" y2="39.8276" stroke="black" stroke-width="5" stroke-linejoin="round"/>
-</g>
-<defs>
-<clipPath id="clip0">
-<rect width="86" height="79" fill="white"/>
-</clipPath>
-</defs>
-</svg>
+<Link to="/projets/" > <img  src={previous} className="Previous" alt="fireSpot" />
 
- </div> </Link>
+ </Link>
 
       <div className="presProjet">
       <div  className="yellowTitle4">

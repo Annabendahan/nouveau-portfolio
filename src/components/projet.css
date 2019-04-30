@@ -33,30 +33,6 @@
 }
 
 
-.projetDetailsTitle{
-  background: #FE004C;
-  color: white;
-  font-family: 'Roboto Mono';
-  padding: 10px;
-  width: 70%;
-  float: right;
-  margin: 50px 0px;
-}
-
-.pinkDivProjet{
-  background: #FE004C;
-  width: 600px;
-  height: 400px;
-  margin-top: -450px;
-}
-
-.pinkDivProjetTodolist{
-  background: #FE004C;
-  width: 500px;
-  height: 300px;
-  margin-top: -250px;
-  margin-left: 100px;
-}
 
 
 
@@ -176,6 +152,7 @@ font-family: Roboto Mono;
   margin-left: 30%;
   width: 500px;
   margin-bottom: 150px;
+  margin-top: -150px;
 
 }
 
@@ -231,5 +208,118 @@ margin-top: 150px;
   stroke-dashoffset: 70;
   animation: dash 1s linear forwards;
   animation-fill-mode: forwards;
+}
+
+
+.picProjet{
+  width: 350px;
+
+}
+
+
+
+.projet{
+  position: relative;
+  font-family: Roboto Mono;
+
+}
+
+.projet a{
+  text-decoration: none;
+}
+
+
+.titlesP{
+  font-family: 'Roboto Mono';
+  position: absolute;
+  top: 100px;
+  transform: rotate(-90deg);
+  left: -150px;
+  color: #343333;
+}
+
+
+
+.titlesP h3{
+font-family: 'Roboto Mono';
+font-size: 1rem;
+}
+
+
+
+
+.titlesP h4{
+font-family: 'Roboto Mono';
+font-weight: 500;
+margin-top:-15px;
+font-size: .9rem;
+}
+
+
+.Previous{
+position: absolute;
+top: 50vh;
+left: 7%;
+}
+
+.Previous:hover{
+  cursor: pointer;
+}
+
+
+
+
+.Next{
+
+position: absolute;
+top: 50vh;
+left: 93%;
+
+}
+
+
+.Next:hover{
+  cursor: pointer;
+}
+
+
+
+.picProjet:hover ~.titlesP{
+ top: 80px;
+ transition: all 1s ease-out;
+}
+
+.picProjet:hover ~ .voirD{
+  opacity: 1;
+  transition: all 1s ease-out;
+}
+
+.picProjet:hover ~ .yellowTitleP{
+  opacity: .5;
+  transition: all 1s ease-out;
+}
+
+.voirD{
+  position: absolute;
+  top: 350px;
+  left: 270px;
+  z-index: 5;
+  color:#343333;
+  font-weight: 700;
+  opacity: 0;
+}
+
+
+.yellowTitleP{
+   position: absolute;
+  top: 347px;
+  left: 250px;
+background: #F7FF3C;
+opacity: .5;
+padding: 15px;
+transform: rotate(-5deg);
+width:140px ;
+position: absolute;
+opacity: 0;
 }
 

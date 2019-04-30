@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import pic1 from "../images/easyforkPic.png"
 import pic2 from '../images/easyfork1.png';
 import pic3 from '../images/easyfork2.png';
+ import previous from '../images/previous.png';
 import '../components/projet.css'
 import { Parallax } from 'react-scroll-parallax';
 
@@ -15,19 +16,9 @@ const Easyfork = () => (
   <Layout>
     <SEO title="Easyfork" />
 
-        <Link to="/" > <div className="projetHeader"> <svg width="86" height="79" viewBox="0 0 86 79" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0)">
-<line x1="22.8934" y1="42.9907" x2="50.1312" y2="12.3394" stroke="black" stroke-width="5" stroke-linejoin="round"/>
-<line x1="53.2942" y1="67.8276" x2="23.294" y2="39.8276" stroke="black" stroke-width="5" stroke-linejoin="round"/>
-</g>
-<defs>
-<clipPath id="clip0">
-<rect width="86" height="79" fill="white"/>
-</clipPath>
-</defs>
-</svg>
+        <Link to="/projets/" >  <img  src={previous} className="Previous" alt="fireSpot" />
 
- </div> </Link>
+  </Link>
 
       <div className="presProjet">
       <div  className="yellowTitle3">
@@ -52,11 +43,11 @@ const Easyfork = () => (
       </div>
 
       <div className="screenShot">
-      <Parallax  y={[10, -40]} tagOuter="figure">
+      <Parallax  y={[10, -20]} tagOuter="figure">
         <img  src={pic2} className="" alt="fireSpot" />
     </Parallax>
 
-    <Parallax  y={[10, -40]} tagOuter="figure">
+    <Parallax  y={[10, -10]} tagOuter="figure">
         <img  src={pic3} className="" alt="fireSpot" />
     </Parallax>
 

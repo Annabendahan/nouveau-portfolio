@@ -3,11 +3,11 @@
 
 .projets {
   margin: auto;
-  width: 40%;
+  width: 30%;
   position: relative;
   font-family: 'Roboto', sans-serif;
   margin-bottom:200px;
-  margin-top: -50px;
+  margin-top: -100px;
 
 }
 
@@ -16,7 +16,15 @@
 }
 
 
+.headerLink{
+  text-decoration: none;
+  color: black;
+}
 
+
+.headerLink p{
+  color: black;
+}
 
 
 
@@ -30,22 +38,22 @@ color: white}
   display: flex;
   width: 80%;
   margin: auto;
-  margin-top: -20px;
+  margin-top: -50px;
   margin-bottom: 100px;
   transition: all 5s ease-out;
   position: relative;
   z-index: 5;
-  background: white;
+
   padding: 40px 20px;
-
-
 
 }
 
 .picture{
+  flex: 0 0 30%;
 filter: grayscale(100%);
-width: 300px;
-height: 500px;
+width: 1500px;
+margin-top: -100px;
+
  position:relative;
   z-index: 5;
 }
@@ -133,6 +141,22 @@ position: absolute;
 
 }
 
+
+.yellowTitle5{
+background:#EAFE0A;
+opacity: .5;
+padding: 20px;
+transform: rotate(-8deg);
+width:150px;
+position: absolute;
+
+}
+
+.titleh3{
+z-index: 5;
+position: relative;
+}
+
 .titleh2{
   font-family: Roboto Mono;
   position: relative;
@@ -147,7 +171,8 @@ position: absolute;
 }
 
 .leftFlex{
-  padding: 30px;
+  padding: 20px;
+  flex: 0 0 70%;
 
 
 }
@@ -202,11 +227,14 @@ font-size: .9rem;
 }
 .contactbig{
   margin: auto;
-  margin-top: 150px;
-  background: white;
+margin-top: -150px;
     width: 80%;
   padding: 50px;
   text-align: center;
+}
+
+.contactbig h2{
+  margin-top: -200px;
 }
 
 @media(max-width: 600px) {
@@ -410,4 +438,16 @@ font-size: .9rem;
   animation-fill-mode: forwards;
 }
 
+
+.discover{
+  margin-left: 80%;
+   height: 100px;
+}
+
+.discover:hover{
+  transform: rotate(180deg);
+  cursor: pointer;
+  transition: all 3s ease-out;
+
+}
 

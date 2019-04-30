@@ -14,12 +14,12 @@ import Spinner from '../components/spinner'
 class HomeFlex extends Component {
 
   state = {
-      isLoading: true
+      mount: false
     }
 
 
   componentDidMount() {
-    this.setState({isLoading: false})
+    this.setState({mount: true})
 }
 
 
@@ -28,7 +28,12 @@ render() {
 
 
 
-let homeFlex =<div className="homeFlex">
+let homeFlex =
+<div style= {{
+          transform: this.state.mount? `translateX(0px)`:`translateX(200px)`,
+           transition: ` all 2s ease-out`
+        }}>
+        <div className="homeFlex">
 
         <div className="leftFlex">
          <Parallax  y={[-30, 20]} tagOuter="figure">
@@ -45,7 +50,9 @@ let homeFlex =<div className="homeFlex">
             </Parallax>
         </div>
 
+
           <img  src={pic1} className="picture" alt="fireSpot" />
+        </div>
 
 
 

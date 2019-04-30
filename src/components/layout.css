@@ -624,6 +624,16 @@ pre tt:after {
 }
 
 
+header a{
+  text-decoration: none;
+}
+
+
+.background{
+  overflow: hidden;
+  height: 110vh;
+}
+
 .background-blue{
   background: #F6F6F6;
   padding: 1% 2%;
