@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Anna Bdh Développeur`,
-    description: `Webdesign, web development`,
+    title: `Anna Bdh`,
+    description: `Front-End développeur en Freelance, UI/UX designer`,
     author: `Anna Bdh`,
+    siteUrl: `http://annabdh.fr`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -26,7 +27,9 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/Logo2.png`, // This path is relative to the root of the site.
       },
-    },
+    }, `gatsby-plugin-sitemap`,
+
+
 
 
     // this (optional) plugin enables Progressive Web App + Offline functionality
