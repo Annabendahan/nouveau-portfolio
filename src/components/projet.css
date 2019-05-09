@@ -254,14 +254,7 @@ opacity: .8;
 }
 
 
-@media(max-width: 600px) {
-  .yellowdiv2{
-    width: 200px;
-    height: 280px;
-    margin-top: -280px;
-}
 
-}
 
 @media(max-width: 1300px) {
   .yellowdiv2{
@@ -282,6 +275,14 @@ opacity: .8;
 
 }
 
+@media(max-width: 600px) {
+  .yellowdiv2{
+    width: 200px;
+    height: 280px;
+    margin-top: -280px;
+}
+
+}
 
 
 
