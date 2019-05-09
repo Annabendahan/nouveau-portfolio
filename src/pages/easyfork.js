@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import pic1 from "../images/easyforkPic.png"
 import pic2 from '../images/easyfork1.png';
 import pic3 from '../images/easyfork2.png';
+import pic4 from '../images/homeEasy.png';
  import previous from '../images/previous.png';
 import '../components/projet.css'
 import { Parallax } from 'react-scroll-parallax';
@@ -43,6 +44,12 @@ const Easyfork = () => (
       </div>
 
       <div className="screenShot">
+
+      <Parallax  y={[10, -20]} tagOuter="figure">
+        <img  src={pic4} className="" alt="fireSpot" />
+    </Parallax>
+
+
       <Parallax  y={[10, -20]} tagOuter="figure">
         <img  src={pic2} className="" alt="fireSpot" />
     </Parallax>

@@ -642,7 +642,7 @@ height: 100vh;
 
 
 .background-blue{
-  background: #F6F6F6;
+  background: white;
   padding: 1% 2%;
 }
 
@@ -655,7 +655,7 @@ height: 100vh;
 
 
 .tabs{
-     background: #F6F6F6;
+     background: transparent;
         display: flex;
         width: 35%;
         padding: 20px;
@@ -669,7 +669,7 @@ height: 100vh;
 
 @media(max-width: 600px) {
 .tabs{
-width: 60%;
+width: 70%;
 }
 }
 

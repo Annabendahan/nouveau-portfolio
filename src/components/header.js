@@ -13,7 +13,7 @@ class Header extends Component {
 
         <header
     style={{
-      background: `#F6F6F6`,
+      background: `transparent`,
       fontFamily: `Roboto Mono`,
       fontWeight: `100`,
 

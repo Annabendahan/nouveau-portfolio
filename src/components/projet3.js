@@ -15,6 +15,7 @@ render(){
     <Link to="/rentman/">
     <div className="projet">
       <img  src={pic1} className="picProjet" alt="fireSpot" />
+      <div className="yellowdiv2"> </div>
       <div className="voirD"> DECOUVRIR </div>
       <div className="yellowTitleP"> </div>
       <div className="titlesP">

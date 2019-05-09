@@ -38,7 +38,7 @@ const AliceWebsite = () => (
 
       <div className="screenShot">
 
-       <Parallax  y={[10, -10]} tagOuter="figure">
+       <Parallax  y={[5, -5]} tagOuter="figure">
         <img  src={pic3} className="" alt="fireSpot" />
     </Parallax>
 
@@ -52,7 +52,7 @@ const AliceWebsite = () => (
     </Parallax>
 
 
-    <Parallax  y={[-10, 10]} tagOuter="figure">
+    <Parallax  y={[-5, 5]} tagOuter="figure">
         <img  src={pic4} className="" alt="fireSpot" />
     </Parallax>
 

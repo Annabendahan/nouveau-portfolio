@@ -6,10 +6,9 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import '../components/index.css'
 
-import pic1 from '../images/Anna.png';
-import pic2 from "../images/easyforkPic.png"
-import pic3 from "../images/aliceP.png"
-import pic4 from "../images/rentmanPic.png"
+ import pic1 from '../images/brooke-lark-176364-unsplash.jpg';
+ import pic2 from '../images/IMG-20180422-WA0053.jpg';
+ import pic3 from '../images/irfan-simsar-1144378-unsplash.jpg';
 import discover from "../images/discoverBlack.png"
 
 import Projets from '../components/projets'
@@ -43,8 +42,55 @@ class  IndexPage extends Component {
 
     <div className="homeFlex">
 
+
+
+
+    <div className="picture">
+
+
+        <div style= {{
+         opacity: this.state.mount? `1`:`0`,
+          transition: ` all .5s ease-out`
+        }}>
+       <img  src={pic1} className="picture pic1" alt="fireSpot" />
+       </div>
+
+
+        <div className= "yellowdiv" style= {{
+
+          transition: ` all 2s ease-out`,
+          background: `#EAFE0A`,
+          opacity: `.5`,
+
+          position: `absolute`,
+          filter: `normal`,
+          top: `0px`,
+          transform: `rotate(8deg)`
+        }}>
+
+        </div>
+
+       <div style= {{
+          opacity: this.state.mount? `1`:`0`,
+          transition: ` all .8s ease-out`
+        }}>
+          <img  src={pic3} className="picture pic3" alt="fireSpot" />
+        </div>
+
+          <div style= {{
+          opacity: this.state.mount? `1`:`0`,
+          transition: ` all 1s ease-out`
+        }}>
+           <img  src={pic2} className="picture pic2" alt="fireSpot" />
+
+          </div>
+
+
+      </div>
+
+
       <div style= {{
-          transform: this.state.mount? `translateX(-50px)`:`translateX(-500px)`,
+          transform: this.state.mount? `translateX(-50px)`:`translateX(500px)`,
           transition: ` all 1s ease-out`
         }}>
        <div className="leftFlex">
@@ -65,14 +111,6 @@ class  IndexPage extends Component {
               <img  src={discover} className="discover" alt="fireSpot" />
             </Link>
         </div>
-      </div>
-
-
-    <div style= {{
-          transform: this.state.mount? `translateX(0px)`:`translateX(500px)`,
-          transition: ` all 1s ease-out`
-        }}>
-      <img  src={pic1} className="picture" alt="fireSpot" />
       </div>
 
       </div>

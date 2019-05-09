@@ -47,13 +47,17 @@ this.setState({ display : 3})
 render(){
 
   let projet = <Projet1 />
+  let numero = "n°01"
 
   if (this.state.display === 1) {
      projet = <Projet1 />
+     numero = "n°01"
   } else if (this.state.display === 2 ) {
     projet = <Projet2 />
+    numero = "n°02"
   } else if (this.state.display === 3 ) {
     projet = <Projet3 />
+    numero = "n°03"
   } else if  (this.state.display === 4 ) {
     this.resetHandle()
   } else if (this.state.display === 0 ) {
@@ -70,10 +74,10 @@ render(){
       <Layout>
 
 
-      <div onClick={this.handleProjetPlus}>
+      <div onClick={this.handleProjetMoins}>
         <img  src={previous} className="Previous" alt="fireSpot" />
       </div>
-      <div onClick={this.handleProjetMoins}>
+      <div onClick={this.handleProjetPlus}>
         <img  src={next} className="Next" alt="fireSpot" />
        </div>
 
@@ -83,6 +87,7 @@ render(){
 
 
      {projet}
+     <div className= "numero" > {numero} </div>
 
 
       </div>
@@ -95,7 +100,7 @@ render(){
       width: `120%`,
       height: `200vh`,
 
-            transform: this.state.mount? `translateY(0px)` : `translateY(-1000px)`,
+            transform: this.state.mount? `translateY(200px)` : `translateY(-100vh)`,
     transition: ` all 2s ease-out`}}>
      </div>
 

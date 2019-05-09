@@ -2,7 +2,10 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, {Component} from "react"
 import './menu.css'
-import pic1 from '../images/Anna.png';
+
+ import pic1 from '../images/brooke-lark-176364-unsplash.jpg';
+ import pic2 from '../images/IMG-20180422-WA0053.jpg';
+ import pic3 from '../images/irfan-simsar-1144378-unsplash.jpg';
 
 import Backdrop from './backdrop'
 import { Parallax } from 'react-scroll-parallax';
@@ -52,6 +55,8 @@ let homeFlex =
 
 
           <img  src={pic1} className="picture" alt="fireSpot" />
+          <img  src={pic2} className="picture" alt="fireSpot" />
+          <img  src={pic3} className="picture" alt="fireSpot" />
         </div>
 
 
