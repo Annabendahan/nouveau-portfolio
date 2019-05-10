@@ -92,15 +92,17 @@ render(){
 
       </div>
 
-      <div style={{
+
+
+       <div style={{
       background: `#EAFE0A`,
       position: `relative`,
       zIndex: `50`,
-      marginLeft: `-50px`,
+      marginLeft: `-20px`,
       width: `120%`,
-      height: `200vh`,
+      height: `220vh`,
 
-            transform: this.state.mount? `translateY(200px)` : `translateY(-100vh)`,
+            transform: this.state.mount? `translateY(-500vh)` : `translateY(-100vh)`,
     transition: ` all 2s ease-out`}}>
      </div>
 

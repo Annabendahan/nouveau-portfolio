@@ -295,7 +295,7 @@ transition: all 1s ease-out;
 
 
 
-@media(min-width: 1400px) {
+@media(min-width: 1500px) {
   .projets{
   width: 450px;
 margin-top :80px;
@@ -304,7 +304,7 @@ margin-top :80px;
 }
 
 
-@media(max-width: 1100px) {
+@media(max-width: 900px) {
   .projets{
   width: 400px;
 margin-top :70px;

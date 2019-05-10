@@ -74,6 +74,19 @@ render(){
        </div>
  </Parallax>
       </Layout>
+
+
+      <div style={{
+      background: `#EAFE0A`,
+      position: `relative`,
+      zIndex: `50`,
+      marginLeft: `-20px`,
+      width: `120%`,
+      height: `220vh`,
+
+            transform: this.state.mount? `translateY(-500vh)` : `translateY(-100vh)`,
+    transition: ` all 2s ease-out`}}>
+     </div>
     </div>
 
     )

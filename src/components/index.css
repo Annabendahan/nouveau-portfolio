@@ -86,10 +86,10 @@ height: 130%;
 
 
 
-@media(max-width: 1400px) {
+@media(max-width: 1500px) {
  .yellowdiv{
  width: 70%;
-height: 80%;
+height: 100%;
 }
 }
 
@@ -358,6 +358,13 @@ margin-top: -100px;
 
 }
 
+@media(min-width: 1500px) {
+ .contactbig{
+
+margin-top: 10px;
+
+}
+}
 
 
 
