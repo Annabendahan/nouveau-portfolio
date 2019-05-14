@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Rubik:900');
+@import url('https://fonts.googleapis.com/css?family=Rubik:200,300,500,700,900');
 
 
 
@@ -44,7 +44,7 @@ color: white}
   flex: 0 0 40%;
 
 width: 95%;
-margin-top: 0px;
+margin-top: -50px;
 
  position:relative;
   z-index: 5;
@@ -126,7 +126,7 @@ margin-top: 0px;
 @media(min-width: 1300px) {
   .picture{
 
-margin-top :0px;
+margin-top :-30px;
 width: 80%;
 
 
@@ -166,6 +166,7 @@ margin-top :0px;
 
 
 
+
   }
 }
 
@@ -178,7 +179,7 @@ margin-top :0px;
 
   .picture{
 margin-left: -20px;
-
+margin-top: -40px;
   }
 }
 
@@ -298,7 +299,7 @@ margin-left: 60px;
   padding: 20px;
 margin-left: 60px;
   width: 100%;
-  margin-top: 600px;
+  margin-top: 650px;
    margin-left: 0px;
 
 }
@@ -577,3 +578,18 @@ font-size: .9rem;
 
 }
 
+.bienvenue{
+  text-align: center;
+
+}
+
+.bienvenue h1 {
+  font-family: Rubik;
+  font-size:  5rem;
+  font-weight: 700;
+  padding-top: 300px;
+}
+
+.bienvenue p{
+ margin-top: 200px;
+}

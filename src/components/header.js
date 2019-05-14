@@ -54,7 +54,7 @@ class Header extends Component {
         >
 
         <Link  to="/">
-        <p className="about"> HOME <span className="dash">
+        <p className="about"> home <span className="dash">
              <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <line x1="6" y1="7.5" x2="38" y2="7.5" stroke="black" stroke-width="5"/>
                       </svg></span> </p>
@@ -81,7 +81,7 @@ class Header extends Component {
         >
 
         <Link to="/projets/">
-        <p className="about"> PROJETS <span className="dash">
+        <p className="about"> projets <span className="dash">
              <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <line x1="6" y1="7.5" x2="38" y2="7.5" stroke="black" stroke-width="5"/>
                       </svg></span> </p>
@@ -104,7 +104,7 @@ class Header extends Component {
         >
 
         <Link to="/contact/">
-        <p className="about"> CONTACT <span className="dash">
+        <p className="about"> contact <span className="dash">
              <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <line x1="6" y1="7.5" x2="38" y2="7.5" stroke="black" stroke-width="5"/>
                       </svg></span> </p>

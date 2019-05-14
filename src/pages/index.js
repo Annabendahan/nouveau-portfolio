@@ -20,18 +20,23 @@ import { Parallax } from 'react-scroll-parallax';
 class  IndexPage extends Component {
    constructor(props) {
         super(props)
-        this.state = { mount: false }
+        this.state = {
+          mount: false,
+         click: false }
     }
 
     componentDidMount() {
     this.setState({mount: true})
 }
 
+handleCliked = () => {
+    this.setState({click: true})
+}
 
 
   render(){
 
-
+console.log(this.state)
 
     return(
 
@@ -114,7 +119,6 @@ class  IndexPage extends Component {
       </div>
 
       </div>
-
 
 
 
