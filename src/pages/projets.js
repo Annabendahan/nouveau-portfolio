@@ -102,7 +102,7 @@ render(){
       width: `120%`,
       height: `220vh`,
 
-            transform: this.state.mount? `translateY(-500vh)` : `translateY(-100vh)`,
+            transform: this.state.mount? `translateY(-600vh)` : `translateY(-100vh)`,
     transition: ` all 2s ease-out`}}>
      </div>
 
