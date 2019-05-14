@@ -1,6 +1,6 @@
  import React, {Component} from 'react';
  import { Link } from "gatsby";
- import pic1 from '../images/irfan-simsar-1144378-unsplash.jpg';
+ import pic1 from '../images/rent.png';
  import '../components/projet.css'
 
 

@@ -101,7 +101,7 @@ console.log(this.state)
        <div className="leftFlex">
          <Parallax  y={[-30, 20]} tagOuter="figure">
           <h1 > HELLO. </h1>
-           <div  className="yellowTitle">  </div> <h2> WEB DESIGN & DEVELOPMENT </h2>
+           <div  className="yellowTitle">  </div> <h2> CODE & UIUX DESIGN </h2>
           <p> Bienvenue sur mon portfolio! Je suis <strong> Anna Bendahan, </strong> developpeuse full-stack
           spécialisée en front-end et passionnée de design. De la conception jusqu'au déploiement, je crée
              des applications web modernes et intuitives.

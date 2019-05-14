@@ -103,8 +103,8 @@ class Header extends Component {
            className="headerLink"
         >
 
-        <Link to="/contact/">
-        <p className="about"> contact <span className="dash">
+        <Link to="/about/">
+        <p className="about"> about <span className="dash">
              <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <line x1="6" y1="7.5" x2="38" y2="7.5" stroke="black" stroke-width="5"/>
                       </svg></span> </p>

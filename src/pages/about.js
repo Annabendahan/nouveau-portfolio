@@ -8,11 +8,12 @@ import Projet3 from '../components/projet3'
  import Layout from "../components/layout"
  import previous from '../images/previous.png';
  import next from '../images/next.png';
- import pic5 from "../images/pavan-trikutam-1660-unsplash.jpg"
+ import pic5 from "../images/phone.png"
  import { Parallax } from 'react-scroll-parallax';
+ import { FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 
-class Contact extends Component {
+class About extends Component {
 
   state={
     mount: false
@@ -32,7 +33,7 @@ render(){
 
   return(
 
-    <div className="background-c">
+    <div className="background">
       <Layout>
 
 
@@ -42,7 +43,10 @@ render(){
      <div style = {{
       transform: this.state.mount? `translateY(0px)`: `translateY(-200px)`,
       transition: ` all 2s ease-out`
-     }}>
+     }}> <h2> <a target= "blank" href= "https://www.linkedin.com/in/anna-bendahan-55324113a/" > <FaLinkedin /> </a>
+      <a target= "blank" href="https://www.instagram.com/annabdh_/"> <FaInstagram/>  </a> </h2>
+     <p> Front-end dev - UI UX Design - Javascript - REST API - RoR - React - CSS - GraphQL - HTML - Illustrator - Indesign -
+     Motion Design - Video - Sketch - Figma - Gatsby </p>
       <p> Un projet? Une question? Contactez-moi!</p>
       </div>
         <div style = {{
@@ -96,4 +100,4 @@ render(){
 
 
 
-export default Contact;
+export default About;

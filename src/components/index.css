@@ -351,12 +351,17 @@ font-size: .9rem;
 
     width: 80%;
   padding: 50px;
-margin-top: -100px;
+margin-top: -160px;
   text-align: center;
 }
 
 .contactbig h2{
+   color: black;
+}
 
+.contactbig a{
+   text-decoration: none;
+   color: black;
 }
 
 @media(min-width: 1500px) {
@@ -491,12 +496,13 @@ font-family: Roboto Mono;
 
 
 .picContact{
-  width: 300px;
+  width: 400px;
+  filter: grayscale(100%);
 }
 
 .picC{
-   width: 300px;
-   height:300px;
+   width: 400px;
+   height:400px;
    position: absolute;
   top: 0px;
   background-size:cover;
