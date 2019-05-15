@@ -239,7 +239,7 @@ filter: grayscale(100%);
   position: relative;
   font-family: 'Roboto', sans-serif;
   margin-bottom:200px;
-  margin-top: -100px;
+  margin-top: 80px;
 
 
 }
@@ -258,18 +258,20 @@ opacity: .8;
 
 @media(max-width: 1300px) {
   .yellowdiv2{
-    width: 400px;
-    height: 530px;
+    width: 420px;
+    height: 520px;
     margin-top: -500px;
 }
 
 }
 
 
-@media(max-width: 1000px) {
+
+
+@media(max-width: 900px) {
   .yellowdiv2{
-    width: 300px;
-    height: 430px;
+    width: 330px;
+    height: 420px;
     margin-top: -400px;
 }
 
@@ -295,7 +297,7 @@ transition: all 1s ease-out;
 
 
 
-@media(min-width: 1500px) {
+@media(min-width: 1600px) {
   .projets{
   width: 450px;
 margin-top :80px;
@@ -304,19 +306,29 @@ margin-top :80px;
 }
 
 
-@media(max-width: 900px) {
+@media(max-width: 1500px) {
   .projets{
-  width: 400px;
-margin-top :70px;
+  width: 330px;
+margin-top :-80px;
 margin-bottom: 1300px
 
+}}
+
+
+@media(max-width: 1100px) {
+  .projets{
+  width: 400px;
+margin-top :0px;
+margin-bottom: 1300px
+
+}
 }
 
 
 @media(max-width: 900px) {
   .projets{
   width: 300px;
-margin-top :70px;
+margin-top :-20px;
 }
 }
 
@@ -331,7 +343,7 @@ margin-top :20px;
 .picProjet{
   width: 450px;
 
-}
+
 }
 
 
