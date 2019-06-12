@@ -71,7 +71,7 @@ render(){
        <Parallax  y={[20, 0]} tagOuter="figure">
       <img  src={pic5} className="picContact" alt="fireSpot" />
        </Parallax>
-      <h3> MERCI POUR LA VISITE ! </h3>
+      <h3> THANKS FOR VISITING! </h3>
       <div className = "heart" > <FaHeart /> </div>
       </div>
 

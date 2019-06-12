@@ -98,7 +98,7 @@ class Header extends Component {
             textDecoration: `none`,
             marginRight: `0px`,
             fontSize: `.8rem`,
-            cursor: `pointer`
+            cursor: `url(..images/cursor1.svg)`
           }}
            className="headerLink"
         >

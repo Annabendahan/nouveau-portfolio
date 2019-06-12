@@ -30,6 +30,7 @@ const Layout = ({ children }) => (
        <Header />
       <div className = "background-blue">
 
+
           <main>{children}</main>
       </div>
 

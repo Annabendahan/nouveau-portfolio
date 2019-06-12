@@ -9,6 +9,8 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  cursor: url('../images/cursor2.svg'), auto;
 }
 article,
 aside,
@@ -684,6 +686,14 @@ width: 70%;
   padding: 10px;
 }
 
+}
+
+.cursor{
+  width: 20px;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  height: 20px;
+  border: 1px solid black;
 }
 
 

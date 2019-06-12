@@ -47,7 +47,7 @@ console.log(this.state)
       <div className="background">
     <Layout>
 
-    <SEO title="about" keywords={[`développeur`, `web`, `designer`]} />
+    <SEO title="Web Developer" keywords={[`développeur`, `web`, `designer`]} />
 
     <div className="homeFlex">
 

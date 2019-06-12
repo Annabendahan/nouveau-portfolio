@@ -476,7 +476,7 @@ font-family: Roboto Mono;
 
 .white-projet:hover .picpro{
   filter: grayscale(70%);
-  cursor: pointer;
+  cursor: url(../images/cursor1.svg);
 }
 
 .AllProjets{

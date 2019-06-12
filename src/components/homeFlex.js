@@ -3,9 +3,9 @@ import PropTypes from "prop-types"
 import React, {Component} from "react"
 import './menu.css'
 
- import pic1 from '../images/brooke-lark-176364-unsplash.jpg';
+ import pic1 from '../images/easy.png';
  import pic2 from '../images/IMG-20180422-WA0053.jpg';
- import pic3 from '../images/irfan-simsar-1144378-unsplash.jpg';
+ import pic3 from '../images/todolistpic.png';
 
 import Backdrop from './backdrop'
 import { Parallax } from 'react-scroll-parallax';
