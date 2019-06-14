@@ -5,7 +5,7 @@ import './menu.css'
 
  import pic1 from '../images/easy.png';
  import pic2 from '../images/IMG-20180422-WA0053.jpg';
- import pic3 from '../images/todolistpic.png';
+ import pic3 from '../images/todolistPic.png';
 
 import Backdrop from './backdrop'
 import { Parallax } from 'react-scroll-parallax';

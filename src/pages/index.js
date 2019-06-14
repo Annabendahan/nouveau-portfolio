@@ -58,8 +58,8 @@ console.log(this.state)
 
 
         <div style= {{
-         opacity: this.state.mount? `1`:`0`,
-          transition: ` all .5s ease-out`
+         visibility: this.state.mount? `visible`:`hidden`,
+          transition: ` all 1s ease-out`
         }}>
        <img  src={pic1} className="picture pic1" alt="fireSpot" />
        </div>
@@ -80,15 +80,15 @@ console.log(this.state)
         </div>
 
        <div style= {{
-          opacity: this.state.mount? `1`:`0`,
-          transition: ` all .8s ease-out`
+          visibility: this.state.mount? `visible`:`hidden`,
+          transition: ` all 2s ease-out`
         }}>
           <img  src={pic3} className="picture pic3" alt="fireSpot" />
         </div>
 
           <div style= {{
-          opacity: this.state.mount? `1`:`0`,
-          transition: ` all 1s ease-out`
+          visibility: this.state.mount? `visible`:`hidden`,
+          transition: ` all 5s ease-out`
         }}>
            <img  src={pic2} className="picture pic2" alt="fireSpot" />
 
