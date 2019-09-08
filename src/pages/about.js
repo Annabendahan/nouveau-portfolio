@@ -43,7 +43,7 @@ render(){
      <div style = {{
       transform: this.state.mount? `translateY(0px)`: `translateY(-200px)`,
       transition: ` all 2s ease-out`
-     }}> <h2> <a target= "blank" href= "https://www.linkedin.com/in/anna-bendahan-55324113a/" > <FaLinkedin /> </a>
+     }}> <h2> <a target= "blank" href= "https://alicethonnier.netlify.com/" > <FaLinkedin /> </a>
       <a target= "blank" href="https://www.instagram.com/annabdh_/"> <FaInstagram/>  </a> </h2>
      <p> Front-end dev - UI UX Design - Javascript - REST API - RoR - React - CSS - GraphQL - HTML - Illustrator - Indesign -
      Motion Design - Video - Sketch - Figma - Gatsby </p>
