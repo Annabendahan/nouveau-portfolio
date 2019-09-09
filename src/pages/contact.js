@@ -53,35 +53,7 @@ render(){
       transform: this.state.mount? `translateY(0px)`: `translateY(-200px)`,
       transition: ` all 1s ease-out`
      }}>
-        <div className="contact">
-          <div className="email">
-           <div  className="yellowTitle5">  </div> <h3 className="titleh3"> EMAIL </h3>
-           <p> an.bendahan@gmail.com </p>
-          </div>
-          <div className="call">
-           <div  className="yellowTitle3">  </div> <h3 className="titleh3"> TELEPHONE </h3>
-           <p> 0659133919</p>
-          </div>
-          </div>
-       </div>
-       <div style = {{
-      transform: this.state.mount? `translateY(0px)`: `translateY(-200px)`,
-      transition: ` all .5s ease-out`
-     }}>
-       <Parallax  y={[20, 0]} tagOuter="figure">
-      <img  src={pic5} className="picContact" alt="fireSpot" />
-       </Parallax>
-      <h3> THANKS FOR VISITING! </h3>
-      <div className = "heart" > <FaHeart /> </div>
-      </div>
-
-       </div>
- </Parallax>
-
-
-
-
-<form name="contact" method="POST" data-netlify="true">
+       <form name="contact" method="POST" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
   </p>
@@ -99,6 +71,37 @@ render(){
   <input type="hidden" name="form-name" value="contact" />
 
 </form>
+        <div className="contact">
+
+          <div className="email">
+           <div  className="yellowTitle5">  </div> <h3 className="titleh3"> EMAIL </h3>
+           <p> an.bendahan@gmail.com </p>
+          </div>
+          <div className="call">
+           <div  className="yellowTitle3">  </div> <h3 className="titleh3"> TELEPHONE </h3>
+           <p> 0659133919</p>
+          </div>
+          </div>
+       </div>
+
+
+       <div style = {{
+      transform: this.state.mount? `translateY(0px)`: `translateY(-200px)`,
+      transition: ` all .5s ease-out`
+     }}>
+       <Parallax  y={[20, 0]} tagOuter="figure">
+      <img  src={pic5} className="picContact" alt="fireSpot" />
+       </Parallax>
+      <h3> THANKS FOR VISITING! </h3>
+      <div className = "heart" > <FaHeart /> </div>
+      </div>
+
+       </div>
+ </Parallax>
+
+
+
+
 
 
       </Layout>
