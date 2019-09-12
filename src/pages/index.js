@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import '../components/index.css'
+import { Document } from 'react-pdf'
 
  import pic1 from '../images/brooke-lark-176364-unsplash.jpg';
  import pic2 from '../images/IMG-20180422-WA0053.jpg';
@@ -109,6 +110,7 @@ console.log(this.state)
           <p> Hello, welcome to my portfolio! I am <strong> Anna Bendahan, </strong> full-stack developer
           specialised in Front-End and UIUX design. I create modern and original websites. Young designer, artist, start-up...: need a website to show what you do?
           <strong> <Link to= "/contact/"> Contact-me ! </Link> </strong>
+
              <span><svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <line x1="6" y1="7.5" x2="38" y2="7.5" stroke="black" stroke-width="5"/>
                         </svg></span></p>
