@@ -5,6 +5,7 @@
 import Projet2 from '../components/projet2'
 import Projet3 from '../components/projet3'
 import Projet4 from '../components/projet4'
+import Projet5 from '../components/projet5'
  import Layout from "../components/layout"
  import previous from '../images/previous.png';
  import next from '../images/next.png';
@@ -47,22 +48,25 @@ this.setState({ display : 4})
 
 render(){
 
-  let projet = <Projet1 />
+  let projet = <Projet5 />
   let numero = "n°01"
 
   if (this.state.display === 1) {
-     projet = <Projet1 />
+     projet = <Projet5 />
      numero = "n°01"
   } else if (this.state.display === 2 ) {
     projet = <Projet2 />
     numero = "n°02"
   } else if (this.state.display === 3 ) {
-    projet = <Projet3 />
+    projet = <Projet1 />
     numero = "n°03"
   } else if (this.state.display === 4 ) {
     projet = <Projet4 />
     numero = "n°04"
-  }else if  (this.state.display === 5 ) {
+    } else if (this.state.display === 5 ) {
+    projet = <Projet3 />
+    numero = "n°05"
+  }else if  (this.state.display === 6 ) {
     this.resetHandle()
   } else if (this.state.display === 0 ) {
     this.resetHandle2()

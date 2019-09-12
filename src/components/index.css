@@ -19,7 +19,14 @@
 }
 
 
+.bold a{
+  color: #343333;
+}
 
+
+.bold a:hover{
+  color: black;
+}
 
 .white{
 color: white}
@@ -598,4 +605,8 @@ font-size: .9rem;
 
 .bienvenue p{
  margin-top: 200px;
+}
+
+.video{
+  width: 100%;
 }
